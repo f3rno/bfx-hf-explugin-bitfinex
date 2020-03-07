@@ -16,3 +16,5 @@ _test_candle_data.json
 /db/*.json
 tags
 db
+coverage/
+.nyc_output/

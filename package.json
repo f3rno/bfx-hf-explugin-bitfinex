@@ -2,6 +2,9 @@
   "name": "bfx-hf-ext-plugin-bitfinex",
   "version": "1.0.7",
   "description": "Bitfinex exchange plugin for the Honey Framework",
+  "engines": {
+    "node": ">=8.3.0"
+  },
   "license": "Apache-2.0",
   "author": "Bitfinex",
   "contributors": [
@@ -34,11 +37,14 @@
     "BTC"
   ],
   "dependencies": {
+    "bfx-api-node-core": "^1.1.8",
+    "bfx-api-node-models": "^1.1.9",
     "bfx-api-node-plugin-managed-candles": "^1.0.0",
     "bfx-api-node-plugin-managed-ob": "^1.0.0",
     "bfx-api-node-plugin-wd": "^1.0.0",
     "bfx-api-node-rest": "^3.0.4",
     "bfx-hf-models": "^2.1.0",
+    "bfx-hf-util": "^1.0.5",
     "bluebird": "^3.5.5",
     "debug": "^4.1.1",
     "lodash": "^4.17.11",
@@ -55,7 +61,9 @@
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
+    "husky": "^4.2.3",
     "mocha": "^7.1.0",
+    "nyc": "^15.0.0",
     "standard": "^14.2.0"
   }
 }
