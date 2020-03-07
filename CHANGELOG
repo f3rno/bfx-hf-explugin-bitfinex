@@ -1,3 +1,6 @@
+# 1.0.7
+- refactor: submit/cancel instantly if delay is 0
+
 # 1.0.6
 - fix: cleanup timeouts on AOAdapter disconnect()
 
